@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png" type="images/x-icon">
+</head>
+
+<body>
+    <nav>
+        <!---------nav-left------------------->
+        <div class="nav-left">
+            <!---------nav-img------------------>
+            <img src="images/logo.png" class="logo">
+            <!---------nav-ul------------------->
+            <div class="dark-theme-color" onclick="Textcolor()">
+                <span></span>
+            </div>
+
+            <ul>
+                <li><img src="images/message.png"></li>
+                <li><img src="images/notification.png"></li>
+                
+                <li><img src="images/video.png"></li>
+            </ul>
+            
+        </div>
+        <!---------nav-right------------------->
+        <div class="nav-right">
+            <!---------nav-right-we have the content like search box img and  the user profile------------------->
+            <div class="search-box">
+                <img src="images/search (2).png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icons online" onclick="settingsMenuToggle()">
+                <img src="images/come2.jpg" alt="">
+            </div>
+
+        </div>
+        <!-----------settings-meun we have the dark btn and the inner settings--------->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <!-----------settings-meun inner we have the user-profile and settings links--------->
+            <div class="settings-menu-inner">
+                <div class="user-porfile">
+                    <img src="images/come2.jpg">
+                    <div>
+                        <p>Donatus Blessing</p>
+                        <a href="#">See profile</a>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="user-porfile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give feedback</p>
+                        <a href="#">Help us to improve</a>
+                    </div>
+
+                </div>
+                <hr>
+                <!----setting-links---->
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Setting & privacy <img src="images/arrow-right.png" width="20px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">help & support <img src="images/arrow.png" width="20px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">display & accessiblity<img src="images/arrow.png" width="20px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">logout <img src="images/arrow.png" width="20px"></a>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </nav>
+
+    <div class="container">
+        <!-----------left-sidebar--------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/home (2).png">Home</a>
+                <a href="#"><img src="images/friend.png">Friends</a>
+                <a href="#"><img src="images/group1.png">Group</a>
+                <a href="#"><img src="images/watch1.png">Watch</a>
+                <a href="#">See More </a>
+            </div>
+
+            <div class="short-cut-links">
+                <p>your shortcut</p>
+                <a href="#"><img src="images/come.png"> Denny</a>
+                <a href="#"><img src="images/come2.jpg"> Dababy</a>
+                <a href="#"><img src="images/come3.jpg"> Itz florante</a>
+                <a href="#"><img src="images/come2.jpg"> Denny Rand</a>
+            </div>
+
+
+
+        </div>
+        <!-----------main-content--------->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload (2).png" alt="">
+                    <p>Post your story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/come3.jpg" alt="">
+                    <p>Glory udoh</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/come2.jpg" alt="">
+                    <p>Donatus paul</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/come.png" alt="">
+                    <p>itz florante</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/come2.jpg" alt="">
+                    <p>itz tolex</p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-porfile">
+                    <img src="images/come2.jpg" alt="">
+                    <div>
+                        <p>Donatus Blessing</p>
+                        <small>public <img src="images/down.png" ></small>
+                    </div>
+
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="what's on your mind Blessing?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live video.png">Go Live</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">FeelingslActivitys</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-porfile">
+                        <img src="images/come2.jpg">
+                        <div>
+                            <p>Donatus Blessing</p>
+                            <span>june</span>
+                        </div>
+
+                    </div>
+                    <a href=""><img src="images/dot.png"></a>
+                </div>
+
+                <p class="post-text">subscribes the page and <span> watch more</span> <a href="#">#watch</a> <a href="#">Love u</a></p>
+                <img src="images/come2.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like (2).png" alt="">120</div>
+                        <div><img src="images/comment (2).png" alt="">25</div>
+                        <div><img src="images/share (2).png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/come3.jpg">
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-porfile">
+                        <img src="images/come2.jpg">
+                        <div>
+                            <p>Donatus Blessing</p>
+                            <span>june</span>
+                        </div>
+
+                    </div>
+                    <a href=""><img src="images/dot.png"></a>
+                </div>
+
+                <p class="post-text">subscribes the page and <span> watch more</span> <a href="#">#watch</a> <a href="#">Love u</a></p>
+                <img src="images/come4.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like (2).png" alt="">120</div>
+                        <div><img src="images/comment (2).png" alt="">25</div>
+                        <div><img src="images/share (2).png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/come3.jpg">
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-porfile">
+                        <img src="images/come2.jpg">
+                        <div>
+                            <p>Donatus Blessing</p>
+                            <span>june</span>
+                        </div>
+
+                    </div>
+                    <a href=""><img src="images/dot.png"></a>
+                </div>
+
+                <p class="post-text">subscribes the page and <span> watch more</span> <a href="#">#watch</a> <a href="#">Love u</a></p>
+                <img src="images/come3.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like (2).png" alt="">120</div>
+                        <div><img src="images/comment (2).png" alt="">25</div>
+                        <div><img src="images/share (2).png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/come3.jpg">
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-porfile">
+                        <img src="images/come2.jpg">
+                        <div>
+                            <p>Donatus Blessing</p>
+                            <span>june</span>
+                        </div>
+
+                    </div>
+                    <a href=""><img src="images/dot.png"></a>
+                </div>
+
+                <p class="post-text">subscribes the page and <span> watch more</span> <a href="#">#watch</a> <a href="#">Love u</a></p>
+                <img src="images/come.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like (2).png" alt="">120</div>
+                        <div><img src="images/comment (2).png" alt="">25</div>
+                        <div><img src="images/share (2).png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/come3.jpg">
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-porfile">
+                        <img src="images/come2.jpg">
+                        <div>
+                            <p>Donatus Blessing</p>
+                            <span>june</span>
+                        </div>
+
+                    </div>
+                    <a href=""><img src="images/dot.png"></a>
+                </div>
+
+                <p class="post-text">subscribes the page and <span> watch more</span> <a href="#">#watch</a> <a href="#">Love u</a></p>
+                <img src="images/come.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like (2).png" alt="">120</div>
+                        <div><img src="images/comment (2).png" alt="">25</div>
+                        <div><img src="images/share (2).png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/come3.jpg">
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-porfile">
+                        <img src="images/come2.jpg">
+                        <div>
+                            <p>Donatus Blessing</p>
+                            <span>june</span>
+                        </div>
+
+                    </div>
+                    <a href=""><img src="images/dot.png"></a>
+                </div>
+
+                <p class="post-text">subscribes the page and <span> watch more</span> <a href="#">#watch</a> <a href="#">Love u</a></p>
+                <img src="images/come.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like (2).png" alt="">120</div>
+                        <div><img src="images/comment (2).png" alt="">25</div>
+                        <div><img src="images/share (2).png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/come3.jpg">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <button type="file" class="load-more-btn">Load More</button>
+
+
+
+
+
+
+
+        </div>
+        <!-----------right-sidebar--------->
+        <div class="right-sidebar">
+            <div class="sidesbar-title">
+                <h4>EVENT</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>20</h3>
+                    <span>june</span>
+                </div>
+                <div class="right-event">
+                    <h4>social media</h4>
+                    <p>Lekki Lagos</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>28</h3>
+                    <span>may</span>
+                </div>
+                <div class="right-event">
+                    <h4>shoping </h4>
+                    <p>Lekki Lagos</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidesbar-title">
+                <h4>Advertisement</h4>
+                <a href="#">close</a>
+            </div>
+            <img src="images/come2.jpg" class="sidesbar-add">
+            <div class="sidesbar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/come3.jpg">
+                </div>
+                <p>Donatus paul</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/come2.jpg">
+                </div>
+                <p>Mrs Glory</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/come4.jpg">
+                </div>
+                <p>Blessing </p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>load more</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
